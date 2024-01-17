@@ -5,7 +5,7 @@ from fastapi import Request
 
 
 class RequestStateManager:
-    def __init__(self, request: Request) -> None:
+    def __init__(self, request: Request):
         self.request = request
 
 
