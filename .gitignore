@@ -1,0 +1,41 @@
+# Ignore Python bytecode files, temporary files, and __pycache__ directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment (Windows)
+venv/
+Scripts/
+Include/
+Lib/
+
+pyvenv.cfg
+
+# Ignore environment-specific files
+.env
+
+# Ignore any local or user-specific files
+.idea/
+.vscode/
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore generated files and directories
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Ignore logs and other generated files
+*.log
+
+# Ignore configuration files for editors
+*.swp
+*~
+.DS_Store
+
+# Ignore the generated API documentation folder
+docs/_build/

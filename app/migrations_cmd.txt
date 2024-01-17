@@ -1,0 +1,5 @@
+
+// MAKE MIGRATIONS:
+alembic revision --autogenerate -m "Create a baseline migrations"
+// MIGRATE:
+alembic upgrade head
